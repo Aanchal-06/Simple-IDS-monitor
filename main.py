@@ -6,7 +6,7 @@ from hids import monitor_file, monitor_logs, monitor_processes
 file_to_monitor = "important.txt"
 
 def main():
-    print("🚀 Starting Hybrid IDS System...\n")
+    print("Starting Hybrid IDS System...\n")
 
     try:
         # Start NIDS

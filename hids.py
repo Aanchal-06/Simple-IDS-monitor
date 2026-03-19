@@ -5,7 +5,7 @@ import subprocess
 from utils import alert
 
 
-# 🔹 File Monitoring
+# File Monitoring
 def monitor_file(file_path):
     print("💻 HIDS Started... Monitoring:", file_path)
 
@@ -25,7 +25,7 @@ def monitor_file(file_path):
         time.sleep(2)
 
 
-# 🔹 Log Monitoring (Arch-compatible)
+# Log Monitoring (Arch-compatible)
 def monitor_logs():
     print("📄 Monitoring system logs (journalctl)...")
 
@@ -50,7 +50,7 @@ def monitor_logs():
         print("❌ Log monitoring error:", e)
 
 
-# 🔹 Process Monitoring
+# Process Monitoring
 def monitor_processes():
     print("⚙️ Monitoring processes...")
 
@@ -75,7 +75,7 @@ def monitor_processes():
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 continue
 
-        # 🔥 Clean old PIDs (important)
+        #Clean old PIDs (important)
         seen = seen.intersection(current_pids)
 
         time.sleep(0.2)
