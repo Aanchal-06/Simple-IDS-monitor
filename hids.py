@@ -54,16 +54,28 @@ def monitor_logs():
 def monitor_processes():
     print("⚙️ Monitoring processes...")
 
+    seen = set()
+
     while True:
-        for proc in psutil.process_iter(['name', 'cmdline']):
+        current_pids = set()
+
+        for proc in psutil.process_iter(['pid', 'name', 'cmdline']):
             try:
+                pid = proc.info['pid']
                 name = proc.info['name']
                 cmd = " ".join(proc.info['cmdline']) if proc.info['cmdline'] else ""
 
+                current_pids.add(pid)
+
                 if "nmap" in name or "nmap" in cmd:
-                    alert(f"[HIDS] Suspicious process detected: {name}")
+                    if pid not in seen:
+                        alert(f"[HIDS] Suspicious process detected: {name}")
+                        seen.add(pid)
 
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 continue
 
-        time.sleep(1)   # faster detection
+        # 🔥 Clean old PIDs (important)
+        seen = seen.intersection(current_pids)
+
+        time.sleep(0.2)

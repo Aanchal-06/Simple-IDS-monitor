@@ -71,6 +71,7 @@
 [NIDS] Port scan detected from 127.0.0.1
 [NIDS] Port scan detected from 127.0.0.1
 [NIDS] Port scan detected from 127.0.0.1
+
 [NIDS] Port scan detected from 127.0.0.1
 [NIDS] Port scan detected from 127.0.0.1
 [NIDS] Port scan detected from 127.0.0.1
@@ -146,3 +147,144 @@
 2026-03-19 14:07:25.484746 - [HIDS] Suspicious process detected: nmap
 2026-03-19 14:07:25.493932 - [NIDS] Port scan detected from 127.0.0.1
 2026-03-19 14:07:38.664952 - [HIDS] Failed login attempt detected!
+2026-03-19 20:54:16.320104 - [HIDS] File modified: important.txt
+2026-03-19 20:54:20.324611 - [HIDS] File modified: important.txt
+2026-03-19 20:54:40.191817 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 20:54:50.839274 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 20:55:25.611629 - [HIDS] Failed login attempt detected!
+2026-03-19 21:01:53.066011 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:02:23.685058 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:02:56.815445 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:03:22.049777 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:23.063325 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:24.077256 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:25.091077 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:26.104931 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:27.118182 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:28.132045 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:29.144885 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:30.158669 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:31.171659 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:32.182936 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:33.196080 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:34.210338 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:35.224570 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:36.237469 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:37.251397 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:38.264077 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:39.276661 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:40.289907 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:41.304025 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:42.317487 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:43.331361 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:44.344908 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:45.357527 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:46.370727 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:47.384517 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:48.398174 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:49.412053 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:50.424863 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:51.437457 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:52.451168 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:53.464363 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:54.482535 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:55.496268 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:56.512726 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:57.526716 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:58.540126 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:03:59.553293 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:00.565624 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:01.578843 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:02.592152 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:03.607489 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:04.620850 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:05.633592 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:06.645580 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:07.658652 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:08.673058 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:09.692422 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:10.705453 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:11.719747 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:12.733328 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:13.746558 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:14.759700 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:15.774025 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:16.787606 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:17.803674 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:18.818536 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:19.831689 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:20.847320 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:21.860302 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:22.873095 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:23.886131 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:24.906396 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:25.920913 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:26.935525 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:27.949856 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:28.961904 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:29.974427 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:30.987866 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:32.002518 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:33.015786 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:34.031498 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:35.044513 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:36.057548 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:37.070763 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:38.083731 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:39.095323 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:40.108825 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:41.122089 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:42.136374 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:43.149483 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:44.163299 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:45.176154 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:46.189694 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:47.202987 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:48.216097 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:49.229061 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:50.242426 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:51.255172 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:52.286626 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:53.326743 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:54.353647 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:55.368087 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:56.382063 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:57.395492 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:58.410208 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:04:59.423861 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:00.435875 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:01.449570 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:02.463027 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:03.476757 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:04.491384 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:05.507353 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:06.520151 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:07.533548 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:08.546822 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:09.559670 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:10.573042 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:11.585755 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:12.599471 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:13.612694 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:14.627027 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:15.641865 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:16.656257 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:17.361321 - [HIDS] Failed login attempt detected!
+2026-03-19 21:05:17.670670 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:18.684766 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:19.699071 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:20.713266 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:05:21.658555 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:05:35.866879 - [HIDS] Failed login attempt detected!
+2026-03-19 21:05:48.484528 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:06:01.627643 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:12:58.952621 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:13:11.535377 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:15:01.026678 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:15:28.357009 - [HIDS] Suspicious process detected: sudo
+2026-03-19 21:15:30.988095 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:15:52.577231 - [NIDS] Port scan detected from 127.0.0.1
+2026-03-19 21:15:59.301765 - [HIDS] File modified: important.txt
+2026-03-19 21:16:05.302995 - [HIDS] File modified: important.txt
+2026-03-19 21:16:40.361950 - [HIDS] Failed login attempt detected!
+2026-03-19 21:16:50.361610 - [HIDS] Failed login attempt detected!
